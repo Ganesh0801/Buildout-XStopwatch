@@ -12,6 +12,12 @@
     box-shadow: 10px 10px 10px 10px rgba(128, 128, 128, 0.409);
 }
 
+.head{
+    display: flex;
+    justify-content: center;
+    
+}
+
 .display{
     width: 80%;
     height: 20%;
