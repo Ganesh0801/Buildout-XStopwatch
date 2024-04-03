@@ -35,14 +35,22 @@ const Stopwatch = () => {
    },[isRunning])
   return (
     <>
-     <div className={styles.container}>
-        <h1 className={styles.head}>Stop Watch</h1>
+     {/* <div className={styles.container}>
+        <h1 className={styles}>Stop Watch</h1>
         <h1 className={styles.display}>time : {timeSetting(time)}</h1>
         <div className={styles.button}>
            <button onClick={startStop} className={styles.start}>{isRunning ? "Stop" : "Start"}</button>
            <button onClick={reset} className={styles.stop}>Reset</button>
         </div>
-     </div>
+     </div> */}
+
+
+<div className={styles.parent}>
+        <h1>Stopwatch</h1>
+        <p>Time: {timeSetting(time)}</p>
+        <button onClick={startStop}>{isRunning ? "Stop" : "Start"}</button>
+        <button onClick={reset} className={styles.buttonSpace}>Reset</button>
+    </div>
     </>
   )
 }

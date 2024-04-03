@@ -1,4 +1,4 @@
-.container{
+/* .container{
     margin: 70px auto;
     display:flex;
     flex-direction: column;
@@ -69,4 +69,14 @@ button:hover{
     font-family:sans-serif;
     font-size:18px;
     font-weight: 600;
+} */
+
+
+.parent {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 50px;
 }
